@@ -5,8 +5,8 @@ import sys
 import threading
 
 # === Twitch Bot Account Info ===
-NICK = "firsttimechatterwelcomer"
-PASS = "oauth:j1ep58o5ydvl0shf95my3bjwpcy77y"
+NICK = "your_bot_username"
+PASS = "oauth:your_oauth_code"
 HOST, PORT = "irc.chat.twitch.tv", 6667
 
 # === Default Welcome Message ===
