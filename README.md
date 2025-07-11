@@ -22,19 +22,17 @@ Welcome to the **MUGA THON Twitch Bot** — a fun, terminal-based bot that welco
 Make sure Python 3.7 or higher is installed. To check:
 
 ```bash
-python3 --version
+python3 --version```
+
 If it's not installed, download it from:
-👉 https://www.python.org/downloads/
+``` 👉 https://www.python.org/downloads/ ```
 
 2. Download the Bot
 If you're using GitHub:
 
-bash
-Copy
-Edit
-git clone https://github.com/YOUR_USERNAME/mugathon-bot.git
-cd mugathon-bot
-Or simply download bot.py and place it in a folder.
+``git clone https://github.com/LGMBrydann/TwitchFirstTimeChatterBot.git
+cd mugathon-bot``
+Or simply download twitch-replier.py and place it in a folder.
 
 3. Generate Your Twitch OAuth Token
 Visit: https://twitchtokengenerator.com
@@ -56,8 +54,8 @@ Copy the generated token — it will start with oauth:
 4. Configure the Bot
 Open bot.py and look for this section at the top:
 
-NICK = "your_bot_username"
-PASS = "oauth:your_generated_token"
+```NICK = "your_bot_username"
+PASS = "oauth:your_generated_token"```
 Replace:
 
 your_bot_username → with your bot Twitch username (exactly as it appears)
@@ -69,7 +67,9 @@ your_generated_token → with the token you copied in Step 6
 5. Run the Bot
 In your terminal, run:
 
-python3 bot.py
+```python3 twitch-replier.py```
+or
+```python twitch-replier.py```
 
 You'll see a menu like:
 === MUGA THON BOT MENU ===
@@ -87,16 +87,11 @@ Example:
 🔐 Important Notes
 ⚠️ Never publish your real token — treat it like a password.
 
-If you're releasing this publicly, remove your token and replace with:
-oauth:your_generated_token
-
-If your token is ever compromised, just go back to https://twitchtokengenerator.com and generate a new one.
-
 Always use a separate Twitch account for bots — don’t risk your main account.
 
-🧠 Made by
+# 🧠 Made by
 LGMBrydan / yoboiyeeter_
 👑 Twitch: twitch.tv/yoboiyeeter_
 📺 YouTube: youtube.com/@LGMBrydanGD
 
-Enjoy the MUGA THON o7
+Enjoy the MUGA THON o7 <3
