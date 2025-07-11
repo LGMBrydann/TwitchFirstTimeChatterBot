@@ -122,8 +122,12 @@ def run_bot(channel):
 def main_menu():
     global welcome_message
 
+    # Credit message at the top
+    print("\n🎉 Special thanks to 2xkumaking who inspired me.. basically who created it all.")
+    print("Alarm FIRST TIME CHATTER! Alarm WELCOME! LETSGO MUGA THON\n")
+
     while True:
-        print("\n=== MUGA THON BOT MENU ===")
+        print("=== MUGA THON BOT MENU ===")
         print("1. Start Bot")
         print("2. Set Welcome Message")
         print("3. Exit")
