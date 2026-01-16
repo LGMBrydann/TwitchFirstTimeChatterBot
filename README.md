@@ -92,6 +92,5 @@ Always use a separate Twitch account for bots — don’t risk your main account
 # 🧠 Made by
 LGMBrydan / yoboiyeeter_
 👑 Twitch: twitch.tv/yoboiyeeter_
-📺 YouTube: youtube.com/@LGMBrydanGD
 
 Enjoy the MUGA THON o7 <3
